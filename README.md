@@ -1,4 +1,4 @@
-# imho-run
+# imho.run
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-imho-run is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://imho.run/
+imho.run provides a free, ad‑free Steam game recommendation service. It lets users anchor favorite titles, swipe through personalized cards, and sign in with Steam to receive curated suggestions based on their library. The platform emphasizes privacy, no sponsorships, and aims to help gamers discover new experiences without cost.
+
+**Areas:** Company · Gaming · Recommendations · Steam · Free
+
+## imho.run on APIs.io
+
+Everything profiled for imho.run is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/imho-run/](https://apis.io/providers/imho-run/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [imho.run API](https://apis.io/apis/imho-run/imho-run-api/) — imho.run API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist (2026-11-12); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [GetApiAgentGameFactsResponse](https://apis.io/schemas/imho-run/imho-run-get-api-agent-game-facts-response/)
+- [GetApiAgentGamesLikeResponse](https://apis.io/schemas/imho-run/imho-run-get-api-agent-games-like-response/)
+- [GetApiAgentRecommendResponse](https://apis.io/schemas/imho-run/imho-run-get-api-agent-recommend-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Imho Run Context](https://apis.io/jsonld/imho-run/imho-run-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [imho.run API Rules](https://apis.io/rules/imho-run/imho-run-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [imho.run Domain Security](https://apis.io/security/imho-run/imho-run-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://imho.run/)
+- [API reference](https://imho.run/developers)
+- [Terms of service](https://imho.run/terms)
+- [Privacy policy](https://imho.run/privacy)
+
+## API Evangelist rating
+
+**Kin Score 32.7** — thin · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 26.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/imho-run/](https://apis.io/providers/imho-run/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for imho.run: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/imho-run/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
